@@ -38,7 +38,21 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.9.6",
     "oscarotero/env": "^1.1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "wpackagist-plugin/ultimate-member":"dev-trunk",
+    "wpackagist-plugin/w3-total-cache":"dev-trunk",
+    "wpackagist-plugin/last-modified-timestamp":"dev-trunk",
+    "wpackagist-plugin/post-duplicator":"dev-trunk",
+    "wpackagist-plugin/google-analytics-for-wordpress":"dev-trunk",
+    "wpackagist-plugin/header-and-footer-scripts":"dev-trunk",
+    "wpackagist-plugin/aryo-activity-log":"dev-trunk",
+    "wpackagist-plugin/user-switching":"dev-trunk",
+    "wpackagist-plugin/autodescription":"dev-trunk",
+    "wpackagist-plugin/contact-form-7":"dev-trunk",
+    "wpackagist-plugin/loco-translate":"dev-trunk",
+    "wpackagist-plugin/wordfence":"dev-trunk",
+    "wpackagist-plugin/wp-optimize":"dev-trunk",
+    "wpackagist-plugin/mailjet-for-wordpress":"dev-trunk"
   },
   "extra": {
     "installer-paths": {
