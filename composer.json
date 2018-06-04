@@ -1,0 +1,56 @@
+{
+  "name": "eco-net/go",
+  "type": "project",
+  "license": "MIT",
+  "description": "'Green Overview' is a portal and guide to the Green Denmark",
+  "homepage": "https://eco-net.dk",
+  "authors": [
+    {
+      "name": "Thomas Elvin",
+      "email": "contact@websupport.dk",
+      "homepage": "https://github.com/eco-net/go"
+    }
+  ],
+  "keywords": [
+    "wordpress", "stack", "composer", "wp"
+  ],
+  "support": {
+    "issues": "https://websupport.dk/contact",
+    "forum": "https://websupport.dk/forums"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/eco-net/w2dc"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "composer/installers": "^1.4",
+    "eco-net/w2dc": "dev-master",
+    "vlucas/phpdotenv": "^2.0.1",
+    "johnpbloch/wordpress": "4.9.6",
+    "oscarotero/env": "^1.1.0",
+    "roots/wp-password-bcrypt": "1.0.0"
+  },
+  "extra": {
+    "installer-paths": {
+      "app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "wp"
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "php -r \"copy('config/.env.example', 'config/.env');\""
+    ]
+  }
+}
