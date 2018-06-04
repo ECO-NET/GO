@@ -52,7 +52,9 @@
     "wpackagist-plugin/loco-translate":"dev-trunk",
     "wpackagist-plugin/wordfence":"dev-trunk",
     "wpackagist-plugin/wp-optimize":"dev-trunk",
-    "wpackagist-plugin/mailjet-for-wordpress":"dev-trunk"
+    "wpackagist-plugin/mailjet-for-wordpress":"dev-trunk",
+    "wpackagist-plugin/ajax-search-lite":"dev-trunk",
+    "wpackagist-plugin/column-shortcodes":"dev-trunk"
   },
   "extra": {
     "installer-paths": {
