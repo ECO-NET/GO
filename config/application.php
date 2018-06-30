@@ -14,8 +14,8 @@ Env::init();
 /**
  * Use Dotenv to set required environment variables and load .env file in root
  */
-$dotenv = new Dotenv\Dotenv($root_dir);
 if (file_exists($root_dir . '/config/.env')) {
+    $dotenv = new Dotenv\Dotenv($root_dir . '/config/');
     $dotenv->load();
     $dotenv->required(['DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME', 'WP_SITEURL']);
 }
@@ -75,18 +75,8 @@ define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 define('DISALLOW_FILE_EDIT', true);
 define('FS_METHOD','direct');
-
-/**
- * Performance Settings
- */
 define('EMPTY_TRASH_DAYS', 7);
 define('WP_POST_REVISIONS', 3 );
-define('WP_MEMORY_LIMIT', '256M');
-define('WP_MAX_MEMORY_LIMIT', '512M' );
-
-/**
- * Multisite Settings
- */
 #define('WP_ALLOW_MULTISITE', true );
 
 /**
