@@ -69,14 +69,21 @@ define('LOGGED_IN_SALT', env('LOGGED_IN_SALT'));
 define('NONCE_SALT', env('NONCE_SALT'));
 
 /**
+ * Performance Settings
+ */
+define('EMPTY_TRASH_DAYS', 7);
+define('AUTOSAVE_INTERVAL', 300);
+define('WP_POST_REVISIONS', false);
+define('WP_MEMORY_LIMIT', '256M');
+define('WP_MAX_MEMORY_LIMIT', '512M' );
+
+/**
  * Custom Settings
  */
 define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 define('DISALLOW_FILE_EDIT', true);
 define('FS_METHOD','direct');
-define('EMPTY_TRASH_DAYS', 7);
-define('WP_POST_REVISIONS', 3 );
 #define('WP_ALLOW_MULTISITE', true );
 
 /**
