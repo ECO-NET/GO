@@ -61,7 +61,16 @@
   },
   "scripts": {
     "post-root-package-install": [
-      "php -r \"copy('config/.env.example', 'config/.env');\""
+      "@php -r copy('config/.env.example', 'config/.env');"
+    ],
+    "post-theme-install": [
+      "@php system('unzip app/themes/Avada.zip');"
+    ],
+    "post-child-theme-install": [
+      "@php system('unzip app/themes/Avada-Child-Theme.zip');"
+    ],
+    "post-plugin-install": [
+      "@php system('unzip app/plugins/w2dc.zip');"
     ]
   }
 }
