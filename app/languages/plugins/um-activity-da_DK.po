@@ -1,0 +1,739 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Social Activity\n"
+"POT-Creation-Date: 2018-10-24 18:48+0300\n"
+"PO-Revision-Date: 2019-03-11 14:42+0000\n"
+"Last-Translator: Webmaster Øko-net <support@eco-info.dk>\n"
+"Language-Team: Dansk\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: um-social-activity.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.2.1; wp-5.1"
+
+#: includes/admin/templates/role/activity.php:11
+msgid "Turn off social wall for this user?"
+msgstr ""
+
+#: includes/admin/templates/role/activity.php:17
+msgid "Do not allow this role to write posts?"
+msgstr ""
+
+#: includes/admin/templates/role/activity.php:24
+msgid "Turn off uploading photos?"
+msgstr ""
+
+#: includes/admin/templates/role/activity.php:31
+msgid "Do not allow this role to write comments?"
+msgstr ""
+
+#: includes/core/actions/um-activity-actions.php:435
+msgid "Answer"
+msgstr ""
+
+#: includes/core/actions/um-activity-admin.php:13
+#: includes/core/class-activity-admin.php:121
+#: includes/core/filters/um-activity-settings.php:30
+#: includes/core/um-activity-init.php:228
+#: includes/core/um-activity-init.php:229
+msgid "Social Activity"
+msgstr ""
+
+#: includes/core/actions/um-activity-footer.php:23
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/core/actions/um-activity-footer.php:24
+msgid "No"
+msgstr "Nej"
+
+#: includes/core/actions/um-activity-webnotification.php:12
+#: includes/core/class-activity-setup.php:52
+msgid "User get a new wall post"
+msgstr ""
+
+#: includes/core/actions/um-activity-webnotification.php:14
+#: includes/core/class-activity-setup.php:54
+msgid "When someone publish a post on my wall"
+msgstr "Når nogen offentliggør et opslag på min væg"
+
+#: includes/core/actions/um-activity-webnotification.php:18
+#: includes/core/class-activity-setup.php:58
+msgid "User get a new wall comment"
+msgstr ""
+
+#: includes/core/actions/um-activity-webnotification.php:20
+#: includes/core/class-activity-setup.php:60
+msgid "When someone comments on your post"
+msgstr "Når nogen kommenterer dit opslag"
+
+#: includes/core/actions/um-activity-webnotification.php:24
+#: includes/core/class-activity-setup.php:64
+msgid "User get a new post like"
+msgstr ""
+
+#: includes/core/actions/um-activity-webnotification.php:26
+#: includes/core/class-activity-setup.php:66
+msgid "When someone likes your post"
+msgstr "Når nogen synes godt om dit opslag"
+
+#: includes/core/actions/um-activity-webnotification.php:30
+#: includes/core/class-activity-setup.php:70
+msgid "User get a new mention"
+msgstr ""
+
+#: includes/core/actions/um-activity-webnotification.php:32
+#: includes/core/class-activity-setup.php:72
+msgid "When someone mentions me"
+msgstr "Når nogen nævner mig i et opslag"
+
+#: includes/core/class-activity-admin.php:89
+msgid "This can be done from the frontend only."
+msgstr ""
+
+#: includes/core/class-activity-admin.php:97
+msgid "Flagged"
+msgstr "Anmeldt"
+
+#: includes/core/class-activity-admin.php:121
+#, php-format
+msgid "Social Activity %s"
+msgstr ""
+
+#: includes/core/class-activity-admin.php:123
+#: includes/core/class-activity-admin.php:161
+#: includes/core/um-activity-init.php:263
+msgid "Hashtags"
+msgstr ""
+
+#: includes/core/class-activity-admin.php:159
+msgid "Author"
+msgstr ""
+
+#: includes/core/class-activity-admin.php:160
+msgid "Content"
+msgstr ""
+
+#: includes/core/class-activity-admin.php:162
+msgid "Likes"
+msgstr "Synes godt om"
+
+#: includes/core/class-activity-admin.php:163
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: includes/core/class-activity-admin.php:164
+msgid "Action"
+msgstr ""
+
+#: includes/core/class-activity-admin.php:197 templates/clone.php:43
+#: templates/clone.php:218 templates/clone.php:313 templates/clone.php:403
+#: templates/comment-reply.php:37 templates/comment.php:51
+#: templates/user-wall.php:175
+msgid "Edit"
+msgstr "Rediger"
+
+#: includes/core/class-activity-admin.php:197
+msgid "Permalink"
+msgstr ""
+
+#: includes/core/class-activity-admin.php:208
+#, php-format
+msgid "This post is flagged by community. <a href=\"%s\">Clear report</a>"
+msgstr ""
+
+#: includes/core/class-activity-main-api.php:14
+#: includes/core/class-activity-setup.php:13
+msgid "New wall post"
+msgstr "Nyt opslag"
+
+#: includes/core/class-activity-main-api.php:15
+#: includes/core/class-activity-setup.php:14
+msgid "New user"
+msgstr "Ny profil"
+
+#: includes/core/class-activity-main-api.php:16
+#: includes/core/class-activity-setup.php:15
+msgid "New blog post"
+msgstr "Ny artikel"
+
+#: includes/core/class-activity-main-api.php:17
+#: includes/core/class-activity-setup.php:16
+msgid "New product"
+msgstr ""
+
+#: includes/core/class-activity-main-api.php:18
+#: includes/core/class-activity-setup.php:17
+msgid "New Gravity Form"
+msgstr ""
+
+#: includes/core/class-activity-main-api.php:19
+#: includes/core/class-activity-setup.php:18
+msgid "New Gravity Form Answer"
+msgstr ""
+
+#: includes/core/class-activity-main-api.php:20
+#: includes/core/class-activity-setup.php:19
+msgid "New follow"
+msgstr ""
+
+#: includes/core/class-activity-main-api.php:21
+#: includes/core/class-activity-setup.php:20
+msgid "New forum topic"
+msgstr ""
+
+#: includes/core/class-activity-main-api.php:191
+#: includes/core/class-activity-setup.php:118
+#: includes/core/filters/um-activity-settings.php:10
+msgid "Activity"
+msgstr "Opslag"
+
+#: includes/core/class-activity-main-api.php:239
+msgid "See more"
+msgstr "Se mere"
+
+#: includes/core/class-activity-main-api.php:449
+msgid "Untitled"
+msgstr ""
+
+#: includes/core/class-activity-main-api.php:709
+#: includes/core/class-activity-shortcode.php:227
+msgid "You must login to view this user activity"
+msgstr ""
+
+#: includes/core/class-activity-main-api.php:711
+msgid "Please login to view this user's activity"
+msgstr ""
+
+#: includes/core/class-activity-main-api.php:713
+#: includes/core/class-activity-main-api.php:717
+msgid "This user wall is private"
+msgstr "Disse opslag er private"
+
+#: includes/core/class-activity-main-api.php:736 templates/clone.php:30
+msgid "Just now"
+msgstr "Lige nu"
+
+#: includes/core/class-activity-main-api.php:744
+#, php-format
+msgid "%s min"
+msgstr ""
+
+#: includes/core/class-activity-main-api.php:746
+#, php-format
+msgid "%s mins"
+msgstr "%s min"
+
+#: includes/core/class-activity-main-api.php:755
+#, php-format
+msgid "%s hr"
+msgstr "%s time"
+
+#: includes/core/class-activity-main-api.php:757
+#, php-format
+msgid "%s hrs"
+msgstr "%s timer"
+
+#: includes/core/class-activity-main-api.php:766
+#, php-format
+msgid "Yesterday at %s"
+msgstr "I går ved %s"
+
+#: includes/core/class-activity-main-api.php:768
+#: includes/core/class-activity-main-api.php:773
+#: includes/core/class-activity-main-api.php:777
+#: includes/core/class-activity-main-api.php:781
+#, php-format
+msgid "%s at %s"
+msgstr "%s kl. %s"
+
+#: includes/core/class-activity-main-api.php:821 templates/likes.php:2
+msgid "People who like this"
+msgstr "Personer som synes godt om"
+
+#: includes/core/class-activity-main-api.php:1575
+#: includes/core/class-activity-main-api.php:1647
+msgid "You must login to like"
+msgstr ""
+
+#: includes/core/class-activity-main-api.php:1578
+#: includes/core/class-activity-main-api.php:1615
+msgid "Invalid comment"
+msgstr ""
+
+#: includes/core/class-activity-main-api.php:1612
+#: includes/core/class-activity-main-api.php:1686
+msgid "You must login to unlike"
+msgstr ""
+
+#: includes/core/class-activity-main-api.php:1650
+#: includes/core/class-activity-main-api.php:1689
+#: includes/core/class-activity-main-api.php:1725
+msgid "Invalid wall post"
+msgstr "Ugyldigt opslag"
+
+#: includes/core/class-activity-main-api.php:1721
+msgid "Login to post a comment"
+msgstr "Log på for at lave opslag"
+
+#: includes/core/class-activity-main-api.php:1729
+msgid "Enter a comment first"
+msgstr "Skriv kommentar"
+
+#: includes/core/class-activity-main-api.php:1832
+#: includes/core/class-activity-main-api.php:2046
+#: includes/core/class-activity-main-api.php:2099
+msgid "You can not post as guest"
+msgstr "Du kan lave opslag som gæst"
+
+#: includes/core/class-activity-main-api.php:1837
+msgid "You should type something first"
+msgstr "Skriv noget"
+
+#: includes/core/class-activity-main-api.php:2050
+#: includes/core/class-activity-main-api.php:2056
+msgid "You should select post first"
+msgstr "Vælg opslag"
+
+#: includes/core/class-activity-main-api.php:2103
+#: includes/core/class-activity-main-api.php:2109
+msgid "You should select comment first"
+msgstr "Vælg kommentar"
+
+#: includes/core/class-activity-setup.php:34
+#, php-format
+msgid ""
+"Please <a href=\"%s\" class=\"um-link\">sign up</a> or <a href=\"%s\" "
+"class=\"um-link\">sign in</a> to like or comment on this post."
+msgstr ""
+
+#: includes/core/filters/um-activity-privacy.php:36
+msgid "Public"
+msgstr "Offentligt"
+
+#: includes/core/filters/um-activity-privacy.php:37
+msgid "Members"
+msgstr "Medlemmer"
+
+#: includes/core/filters/um-activity-privacy.php:38
+msgid "Only me"
+msgstr "Kun mig"
+
+#: includes/core/filters/um-activity-privacy.php:44
+#: includes/core/filters/um-activity-privacy.php:47
+msgid "Who can see your activity wall?"
+msgstr "Hvem kan se din aktivitet og opslag?"
+
+#: includes/core/filters/um-activity-settings.php:22
+msgid "Social Activity License Key"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:35
+msgid "Number of wall posts on desktop"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:41
+msgid "Maximum number of faces"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:47
+msgid "Number of wall posts on mobile"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:53
+msgid "Number of initial comments/replies to display per post"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:59
+msgid "Number of comments/replies to get when user load more"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:65
+msgid "Comments order"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:67
+msgid "Newest first"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:68
+msgid "Oldest first"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:70
+msgid "Select..."
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:76
+msgid "How many words appear before wall post is truncated?"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:83
+msgid "Allow users to set their activity wall privacy through account page?"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:88
+msgid "Trending Hashtags Days"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:89
+msgid ""
+"Enter number of days here. For example: 0 will calculate trending hashtags "
+"over today only, and 7 will calculate trending hashtags over a 7 day period."
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:95
+msgid "Require user to login to view activity walls?"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:100
+msgid "Text to display If user needs to login to interact in a post"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:106
+msgid "Active Color"
+msgstr ""
+
+#: includes/core/filters/um-activity-settings.php:124
+#, php-format
+msgid "Enable \"%s\" in activity"
+msgstr ""
+
+#: includes/core/um-activity-init.php:230
+#: includes/core/um-activity-init.php:231
+msgid "Add New Post"
+msgstr "Tilføj opslag"
+
+#: includes/core/um-activity-init.php:232
+msgid "Edit Post"
+msgstr "Rediger opslag"
+
+#: includes/core/um-activity-init.php:233
+msgid "No wall posts have been added yet"
+msgstr ""
+
+#: includes/core/um-activity-init.php:234
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: includes/core/um-activity-init.php:235
+msgid "Search Posts"
+msgstr ""
+
+#: includes/core/um-activity-init.php:248
+msgctxt "taxonomy general name"
+msgid "Hashtags"
+msgstr ""
+
+#: includes/core/um-activity-init.php:249
+msgctxt "taxonomy singular name"
+msgid "Hashtag"
+msgstr ""
+
+#: includes/core/um-activity-init.php:250
+msgid "Search Hashtags"
+msgstr ""
+
+#: includes/core/um-activity-init.php:251
+msgid "Popular Hashtags"
+msgstr ""
+
+#: includes/core/um-activity-init.php:252
+msgid "All Hashtags"
+msgstr ""
+
+#: includes/core/um-activity-init.php:255
+msgid "Edit Hashtag"
+msgstr ""
+
+#: includes/core/um-activity-init.php:256
+msgid "Update Hashtag"
+msgstr ""
+
+#: includes/core/um-activity-init.php:257
+msgid "Add New Hashtag"
+msgstr ""
+
+#: includes/core/um-activity-init.php:258
+msgid "New Hashtag Name"
+msgstr ""
+
+#: includes/core/um-activity-init.php:259
+msgid "Separate hashtags with commas"
+msgstr ""
+
+#: includes/core/um-activity-init.php:260
+msgid "Add or remove hashtags"
+msgstr ""
+
+#: includes/core/um-activity-init.php:261
+msgid "Choose from the most used hashtags"
+msgstr ""
+
+#: includes/core/um-activity-init.php:262
+msgid "No hashtags found."
+msgstr "Ingen emner fundet."
+
+#: includes/core/um-activity-widget.php:21
+msgid "Ultimate Member - Trending Hashtags"
+msgstr ""
+
+#: includes/core/um-activity-widget.php:24
+msgid "Shows your trending hashtags"
+msgstr "Vis populære emner"
+
+#: includes/core/um-activity-widget.php:67
+msgid "Trending"
+msgstr "Populær"
+
+#: includes/core/um-activity-widget.php:71
+msgid "Title:"
+msgstr "Titel:"
+
+#: templates/clone.php:45 templates/user-wall.php:181
+msgid "Are you sure you want to delete this post?"
+msgstr "Er du sikker på du vil slette dette opslag?"
+
+#: templates/clone.php:45 templates/clone.php:220 templates/clone.php:315
+#: templates/clone.php:405 templates/comment-reply.php:38
+#: templates/comment.php:52 templates/user-wall.php:182
+msgid "Delete"
+msgstr "Slet"
+
+#: templates/clone.php:88 templates/clone.php:194 templates/clone.php:196
+#: templates/clone.php:289 templates/clone.php:291 templates/clone.php:378
+#: templates/clone.php:382 templates/clone.php:383
+#: templates/comment-reply.php:24 templates/comment-reply.php:26
+#: templates/comment.php:35 templates/comment.php:37
+#: templates/user-wall.php:272 templates/user-wall.php:274
+msgid "Like"
+msgstr "Synes godt om"
+
+#: templates/clone.php:88 templates/clone.php:195 templates/clone.php:290
+#: templates/clone.php:378 templates/clone.php:379 templates/clone.php:382
+#: templates/comment-reply.php:24 templates/comment-reply.php:26
+#: templates/comment.php:35 templates/comment.php:37
+#: templates/user-wall.php:272 templates/user-wall.php:274
+msgid "Unlike"
+msgstr "Synes ikke godt om"
+
+#: templates/clone.php:90 templates/clone.php:113 templates/comments.php:18
+#: templates/user-wall.php:278
+msgid "Comment"
+msgstr "Kommenter"
+
+#: templates/clone.php:107 templates/clone.php:336 templates/comments.php:12
+msgid "Write a reply..."
+msgstr "Skriv et svar..."
+
+#: templates/clone.php:109 templates/clone.php:237 templates/comments.php:14
+msgid "Write a comment..."
+msgstr "Skriv en kommentar..."
+
+#: templates/clone.php:164 templates/clone.php:259 templates/clone.php:353
+msgid "Hide"
+msgstr "Skjul"
+
+#: templates/clone.php:177 templates/clone.php:272
+msgid ""
+"Comment hidden. <a href=\"javascript:void(0);\" class=\"um-link\">Show this "
+"comment</a>"
+msgstr ""
+"Kommentar skjult. <a href=\"javascript:void(0);\" class=\"um-link\">Vis "
+"kommentar</a>"
+
+#: templates/clone.php:203 templates/clone.php:298 templates/clone.php:340
+#: templates/comment.php:42
+msgid "Reply"
+msgstr "Svar"
+
+#: templates/clone.php:219 templates/clone.php:314 templates/clone.php:404
+#: templates/comment-reply.php:38 templates/comment.php:52
+msgid "Are you sure you want to delete this comment?"
+msgstr "Er du sikker på du vil slette denne kommentar?"
+
+#: templates/clone.php:241 templates/new.php:126
+msgid "Cancel editing"
+msgstr "Fortryd rediger"
+
+#: templates/clone.php:244 templates/new.php:129
+msgid "Update"
+msgstr "Rediger"
+
+#: templates/clone.php:366
+msgid ""
+"Reply hidden. <a href=\"javascript:void(0);\" class=\"um-link\">Show this "
+"reply</a>"
+msgstr ""
+"Svar skjult. <a href=\"javascript:void(0);\" class=\"um-link\">Vis svar</a>"
+
+#: templates/comment-reply.php:13
+msgid "Reply hidden. <a href=\"#\" class=\"um-link\">Show this reply</a>"
+msgstr ""
+
+#: templates/comment.php:19
+msgid "Comment hidden. <a href=\"#\" class=\"um-link\">Show this comment</a>"
+msgstr ""
+
+#: templates/comment.php:88
+#, php-format
+msgid "load <span class=\"um-activity-more-count\">%s</span> more replies"
+msgstr ""
+
+#: templates/comment.php:90
+#, php-format
+msgid "load <span class=\"um-activity-more-count\">%s</span> more reply"
+msgstr ""
+
+#: templates/comment.php:92 templates/comments.php:55
+msgid "load more replies"
+msgstr "vis flere svar"
+
+#: templates/comment.php:92 templates/comments.php:56
+msgid "load more comments"
+msgstr "vis flere kommentarer"
+
+#: templates/comments.php:49
+#, php-format
+msgid "load <span class=\"um-activity-more-count\">%s</span> more comments"
+msgstr ""
+
+#: templates/comments.php:51
+#, php-format
+msgid "load <span class=\"um-activity-more-count\">%s</span> more comment"
+msgstr ""
+
+#: templates/html/new-follow.php:1
+msgid "has just followed"
+msgstr "er begyndt at følge"
+
+#: templates/html/new-gform-submission.php:1 templates/html/new-gform.php:1
+msgid "just created a new "
+msgstr "har lige oprettet "
+
+#: templates/html/new-gform-submission.php:1
+msgid "Gravity Form Answer"
+msgstr ""
+
+#: templates/html/new-gform.php:1
+msgid "Gravity Form"
+msgstr ""
+
+#: templates/html/new-group.php:1
+msgid "created the group"
+msgstr "oprettede gruppen"
+
+#: templates/html/new-post.php:1
+msgid "just created a new blog"
+msgstr ""
+
+#: templates/html/new-post.php:1
+msgid "post"
+msgstr "opslag"
+
+#: templates/html/new-product.php:1
+msgid "just added a new"
+msgstr "tilføjede for nyligt"
+
+#: templates/html/new-product.php:1
+msgid "product"
+msgstr ""
+
+#: templates/html/new-topic.php:1
+msgid "just created a new forum"
+msgstr ""
+
+#: templates/html/new-topic.php:1
+msgid "topic"
+msgstr ""
+
+#: templates/html/new-user.php:1
+msgid "just joined the site. Check out their profile"
+msgstr "er lige blevet medlem. Tjek profil ud."
+
+#: templates/new.php:13
+msgid "Post on your wall"
+msgstr "Skriv et opslag"
+
+#: templates/new.php:15
+#, php-format
+msgid "Post on %s's wall"
+msgstr "Skriv et opslag til %s"
+
+#: templates/new.php:22 templates/new.php:84
+msgid "Say something about this photo"
+msgstr "Beskriv dette billede"
+
+#: templates/new.php:23 templates/new.php:24 templates/new.php:85
+#: templates/new.php:86
+msgid "What's on your mind?"
+msgstr "Del dine grønne idéer og tanker.."
+
+#: templates/new.php:49 templates/new.php:112
+msgid "Add photo"
+msgstr "Tilføj billede"
+
+#: templates/new.php:50 templates/new.php:113
+msgid "Image is too large"
+msgstr ""
+
+#: templates/new.php:51 templates/new.php:114
+msgid "Please upload a valid image"
+msgstr ""
+
+#: templates/new.php:63
+msgid "Post"
+msgstr "DEL"
+
+#: templates/user-wall.php:189 templates/user-wall.php:191
+msgid "Report"
+msgstr "Anmeld"
+
+#: templates/user-wall.php:190 templates/user-wall.php:191
+msgid "Cancel report"
+msgstr "Fortryd anmeldelse"
+
+#: templates/user-wall.php:247
+msgid "likes"
+msgstr "synes godt om"
+
+#: templates/user-wall.php:253
+msgid "comments"
+msgstr "kommentarer"
+
+#: um-social-activity.php:38 um-social-activity.php:54
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Ultimate Member - Social Activity"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://ultimatemember.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Engage community users with beautiful social activity walls"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ultimate Member"
+msgstr ""
